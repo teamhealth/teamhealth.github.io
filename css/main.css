@@ -1,0 +1,87 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #DD3939;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+  color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a, a:hover, a:active, a:visited {
+  color: #fff;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 43em;
+  margin: 3em auto 2em;
+  padding-top: 10%;
+  line-height: 1.5em;
+}
+
+.site .logo {
+  text-align: center;
+}
+
+
+.site .footer {
+  font-size: 90%;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.site .footer .contact {
+  text-align: center;
+}
+
+.site .footer .contact ul {
+  margin-top: 1em;
+}
+
+.site .footer .contact ul li{
+  display: inline;
+  padding: 5px;
+  border-left: 2px solid #FFF;
+}
+
+.site .footer .contact ul li:first-child {
+  border-left: none;
+}
+
+
+.site .footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.site .footer .rss img {
+  border: 0;
+}
+
